@@ -1,9 +1,10 @@
 import dotenv from "dotenv";
+import { renderBanner } from "./cli/banner.cli.ts";
 
 dotenv.config();
 
 async function main() {
-        console.log("Hello world!");
+renderBanner()
 }
 
 main();
